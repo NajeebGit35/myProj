@@ -35,6 +35,7 @@ public class Count {
     public static void countChars(InputStream in) throws IOException
     {
         int count = 0;
+	int count1 = 1;
 
         while (in.read() != -1)
             count++;
